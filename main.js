@@ -23,8 +23,8 @@ function draw()
     fill("#020024");
     //circle(noseX, noseY, difference); the circle
     //square(noseX, noseY, difference); the square
-    //textSize(difference);
-    //text("Nirmit", noseX, noseY);
+    textSize(difference);
+    text("Nirmit", noseX, noseY);
 
 }
 function gotPoses(results)
